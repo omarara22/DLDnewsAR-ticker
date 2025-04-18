@@ -1,49 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-  <meta charset="UTF-8">
-  <title>شريط الأخبار</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
-      font-family: 'Segoe UI', sans-serif;
-    }
-    .ticker {
-      background: #f2f2f2;
-      overflow: hidden;
-      position: relative;
-      border: 1px solid #ccc;
-      height: 50px;
-    }
-    .ticker-text {
-      position: absolute;
-      white-space: nowrap;
-      will-change: transform;
-      animation: scroll-right 20s linear infinite;
-      color: #333;
-      font-size: 18px;
-      line-height: 50px;
-      direction: rtl;
-    }
-    @keyframes scroll-right {
-      0% {
-        transform: translateX(-100%);
-      }
-      100% {
-        transform: translateX(100%);
-      }
-    }
-  </style>
-</head>
-<body dir="rtl">
-  <div class="ticker">
-    <div class="ticker-text">
-      📢 إعلان: سيتم إيقاف انظمة التشغيل يوم الجمعة 25 ابريل 2025 من الساعة 10 صباحًا للصيانة |
-      🎉 تهنئة للزميلة علياء محمد لانضمامها لفريق تدريب دائرة الاراضي والاملاك |
-      📅 اجتماع طارئ للفريق يوم الإثنين 21 ابريل 2025 الساعة 10 صباحًا
-    </div>
-  </div>
-</body>
-</html>
